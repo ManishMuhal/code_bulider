@@ -1,0 +1,123 @@
+[
+  {
+    "section": "PPC Services",
+    "title": "Leading PPC Services Provider in Jaipur",
+    "description": "Drive instant traffic and boost conversions with our professional PPC services. We design and manage cost-effective campaigns that deliver measurable results and maximize ROI.",
+    "highlights": [
+      {
+        "icon": "💰",
+        "title": "Increased ROI",
+        "text": "Get maximum returns from every ad spend with our strategic PPC management."
+      },
+      {
+        "icon": "🎯",
+        "title": "Targeted Campaigns",
+        "text": "We ensure your ads reach the right audience at the right time for higher conversions."
+      },
+      {
+        "icon": "📊",
+        "title": "Transparent Reporting",
+        "text": "Track real-time performance with detailed campaign analytics and reports."
+      }
+    ]
+  },
+  {
+    "section": "PPC Service Categories",
+    "title": "Social Media Marketing Services",
+    "services": [
+      {
+        "name": "Search Ads",
+        "description": "Show your business on top of Google search results with high-performing ads."
+      },
+      {
+        "name": "Display Ads",
+        "description": "Reach potential customers across millions of websites and apps through engaging display ads."
+      },
+      {
+        "name": "Shopping Ads",
+        "description": "Boost your eCommerce sales by showcasing products directly in Google search results."
+      },
+      {
+        "name": "Remarketing Ads",
+        "description": "Reconnect with visitors who have previously interacted with your website to increase conversions."
+      },
+      {
+        "name": "Video Ads",
+        "description": "Engage audiences through creative and impactful video advertising on YouTube and other platforms."
+      },
+      {
+        "name": "App Promotion Ads",
+        "description": "Promote your mobile application and increase downloads through targeted app campaigns."
+      }
+    ]
+  },
+  {
+    "section": "Quality Control",
+    "title": "The Quality Control Process at PM IT Solution",
+    "description": "Our PPC campaigns undergo a detailed quality control process to ensure every ad is optimized for performance and cost efficiency.",
+    "steps": [
+      {
+        "title": "Campaign Research",
+        "text": "We analyze your market, audience, and competitors to identify profitable ad opportunities."
+      },
+      {
+        "title": "Ad Copy & Design",
+        "text": "We create compelling ad copies and visuals to attract high-intent customers."
+      },
+      {
+        "title": "Performance Tracking",
+        "text": "We monitor every campaign metric to ensure data-driven optimization and reporting."
+      }
+    ]
+  },
+  {
+    "section": "Work Process",
+    "title": "Our Work Process",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Understanding & Researching",
+        "description": "We analyze your business, audience, and competitors to form the foundation of the strategy."
+      },
+      {
+        "step": "02",
+        "title": "Planning & Designing",
+        "description": "Our team creates a targeted PPC plan and ad visuals tailored to your goals."
+      },
+      {
+        "step": "03",
+        "title": "Develop & Execute",
+        "description": "We launch optimized campaigns across Google Ads and social media platforms."
+      },
+      {
+        "step": "04",
+        "title": "Evaluation & Testing",
+        "description": "We constantly test ad performance and make data-backed improvements for better ROI."
+      },
+      {
+        "step": "05",
+        "title": "Final Delivery",
+        "description": "Receive detailed reports and insights that highlight your campaign’s success metrics."
+      }
+    ]
+  },
+  {
+    "section": "Why Choose Us",
+    "title": "Why Choose Us",
+    "description": "We deliver tailored PPC advertising solutions that generate real business results. Our experts ensure every campaign is optimized for visibility, conversions, and cost-effectiveness.",
+    "highlights": [
+      {
+        "title": "Certified PPC Experts",
+        "text": "Our team consists of certified professionals skilled in managing Google and Bing Ads."
+      },
+      {
+        "title": "Data-Driven Approach",
+        "text": "We use advanced analytics to optimize campaigns for maximum performance."
+      },
+      {
+        "title": "Dedicated Support",
+        "text": "We provide regular updates, transparent communication, and ongoing optimization."
+      }
+    ]
+  }
+]
