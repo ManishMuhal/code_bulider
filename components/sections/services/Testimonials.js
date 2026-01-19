@@ -4,32 +4,50 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
+import Faq from '@/components/sections/services/Faq'
 
 // Default data for the Testimonials component
 const defaultData = {
   badge: "Client Feedback",
-  heading: "What Our",
-  headingLight: "Clients Say",
+  heading: "Hear What Our Customers",
+  headingLight: " Say About Us",
   subHeading: "Discover how businesses are growing faster with our IT solutions & services.",
   testimonials: [
     {
       avatar: '/assets/images/banner/image 11.png',
-      name: 'Paul Trueman',
+      name: 'Manish Muhal',
       role: 'EQANTA APP',
-      quote: 'Working with Courtney Davis as our UI designer was an absolute pleasure. Her attention to detail and creative approach brought our vision to life. The user interface she designed exceeded our expectations, and we received positive feedback from our clients. Highly recommended!',
+      quote: '“Code Builder Technology did an excellent job with our website and SEO. The team delivered on time and continued to provide great support after launch.”',
     },
     {
       avatar: '/assets/images/banner/image 16.png',
-      name: 'Courtney Davis',
+      name: 'Ajay Joshi',
       role: 'UX LEAD',
-      quote: "Amazing work — creative, timely and highly skilled. Our app's UX improved dramatically after the redesign.",
+      quote: "“I wanted to hire app developers in India that could build me a beautiful application that my users would love. CBTech came through with ease.”",
     },
     {
       avatar: '/assets/images/banner/image 11.png',
-      name: 'Mark Jensen',
+      name: 'Smriti Sharma',
       role: 'PRODUCT MANAGER',
-      quote: 'Professional and thoughtful design. The team loved the new interface and engagement went up.',
+      quote: '“They helped me with Google Ads to generate more leads for my business. Again, they came through when I needed help keeping my costs within budget.”',
     },
+    {
+      avatar: '/assets/images/banner/image 11.png',
+      name: 'Jay Shetty',
+      role: 'PRODUCT MANAGER',
+      quote: '“They’re one of the best professional software developers in India that get it done. Great communication and very dependable.”',
+    },
+  ]
+}
+const faqData = {
+  heading: "Hire PHP Developer Questions?", subHeading: "PMIT Solution makes hiring dedicated developers easy.",
+  questions: [
+    { question: "Q. 1 : What is your hiring model?", answer: "We offer hourly ($15-25/hr), monthly (full-time dedicated), and project-based engagement models." },
+    { question: "Q. 2 : How quickly can I start?", answer: "We can match you with a developer and start within 48 hours for most requirements." },
+    { question: "Q. 3 : What skills do your PHP developers have?", answer: "Laravel, CodeIgniter, Symfony, WordPress, API development, MySQL, and modern PHP practices." },
+    { question: "Q. 4 : How do we communicate?", answer: "Use Slack, Microsoft Teams, email, or any communication tool you prefer. Daily standups if needed." },
+    { question: "Q. 5 : Can I scale up or down?", answer: "Yes, you can adjust the team size each month based on your project needs." },
+    { question: "Q. 6 : What if the developer isn't a fit?", answer: "We provide replacement within one week if the developer doesn't meet your expectations." }
   ]
 }
 
@@ -177,7 +195,10 @@ export default function Testimonials({ data = defaultData }) {
             </div>
           </div>
         </div>
+        <div style={{marginTop:'12%'}} className="tf-container">
 
+          <Faq data={faqData} />
+        </div>
         {/* bottom glow accent */}
         <div
           className="mx-auto mt-5 rounded-pill"
@@ -203,6 +224,7 @@ export default function Testimonials({ data = defaultData }) {
                     }
                 }
             `}</style>
+
     </section>
   )
 }

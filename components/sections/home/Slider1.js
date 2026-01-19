@@ -24,13 +24,11 @@ export default function Slider1() {
                                             <div className="tf-slider-item">
                                                 <div className="content-inner">
                                                     <h1 className="heading">
-                                                        <span style={{ fontSize: 'bold',color:'#FF9800' }}> Designing</span> a Better
-                                                        World Today <span></span>
+                                                        <span style={{ fontSize: 'bold', color: '#FF9800' }}> IT Services</span> Company in India Powering Scalable Digital Growth <span></span>
                                                         <img src="/assets/images/slider/bg-slider.png" alt="Image" />
                                                     </h1>
-                                                    <p className="sub-heading">We create the most outstanding apps and web solutions
-                                                        to date. An agile methodology, state-of-the-art technologies and
-                                                        coordination between client, target audience and developing team enables us to craft the best web and app service.</p>
+                                                    <p className="sub-heading">Code Builder Technology is a software development company in India specialising in web development, mobile app development, game development, and digital marketing services. We aim to help businesses grow faster with secure, scalable, and result-driven digital solutions.
+                                                    </p>
                                                     <div className="btn-slider ">
                                                         <Link href="#" className="tf-button style-2">Portfolio</Link>
                                                         <Link href="/connect-us     " className="tf-button style-3">Contact Us</Link>

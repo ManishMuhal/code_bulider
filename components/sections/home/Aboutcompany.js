@@ -36,15 +36,15 @@ export default function Aboutcompany() {
                         <div className="col-md-6">
                             <div className="content-banner">
                                 <div className="company ">
-                                    <img src="/assets/icon/preload.png" alt="Image" style={{ width: '30px', height: 'auto',marginRight:'12px' }} />
-
-                                    PM it Solution
+                                    <img src="/assets/icon/preload.png" alt="Image" style={{ width: '30px', height: 'auto', marginRight: '12px' }} />
+                                    Code Builder
                                 </div>
-                                <h2 className="wow fadeInUp">About Our Company</h2>
+                                <h2 className="wow fadeInUp">About Code Builder Technology:
+                                </h2>
                                 <p className="wow fadeInUp">
-                                    <b>Best Rated Development & Marketing Company</b><br /><br />
-                                    PMIT Solution is serving a vast portfolio of clients in different sectors by providing digital services, compliance assistance and targeted support. Each of the services created and delivered here are seamless, secure, scalable and result-oriented.
-                                    Our team of project managers, designers, developers, marketing experts and executers is empowered with the most advanced skills, technologies and experience.
+                                    <b>Building reliable software and digital solutions for modern businesses
+                                    </b><br /><br />
+                                    Code Builder Technology is an IT services company committed to delivering comprehensive software, digital marketing, and quality-assured solutions. We assist startups, SMEs, and enterprises with customised technology, effective strategies, and reliable execution. Explore our services and find out how we work across industries and business models.
                                 </p>
                                 {/* <div className="group-btn wow fadeInUp">
                                     <Link href="/add-NFT" className="tf-button style-2 btn-1">Create Item</Link>

@@ -105,11 +105,17 @@ export default function Menu() {
                 <li className={`menu-item ${checkCurrentMenuItem("/about")}`}>
                     <Link href="/about">About</Link>
                 </li>
-
-                {/* Work */}
-                <li className={`menu-item ${checkCurrentMenuItem("/work")}`}>
-                    <Link href="/work">Work</Link>
+                <li className={`menu-item ${pathname === "/add-NFT" ? "current-menu-item" : ""}`}>
+                    <Link href="/add-NFT">Create</Link>
                 </li>
+                {/* Work */}
+                {/* <li className={`menu-item ${checkCurrentMenuItem("/work")}`}>
+                    <Link href="/work">Work</Link>
+                </li> */}
+                <li className={`menu-item ${checkCurrentMenuItem("/blog")}`}>
+                    <Link href="/blog">Blog</Link>
+                </li>
+
             </ul>
         </>
     )

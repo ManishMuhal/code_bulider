@@ -8,20 +8,21 @@ export default function OurServices() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="tf-heading style-2 mb40 wow fadeInUp">
-                                <h4 className="heading">Our Services</h4>
+                                <h4 className="heading">Services We Provide</h4>
                             </div>
                         </div>
 
                         {/* Web Development */}
-                        <div className="col-lg-3 col-md-6"style={{ margin: "12px 0" }}>
+                        <div className="col-lg-3 col-md-6" style={{ margin: "12px 0" }}>
                             <div className="tf-create wow fadeInUp" data-wow-delay="0.2s">
                                 <div className="icon">
                                     <img src="/assets/images/svg/icon-create-2.svg" alt="Web Development" />
                                 </div>
                                 <h6 className="title">WEB DEVELOPMENT</h6>
                                 <p className="content">
-                                    We offer quality-enriched and cost-efficient web development services with maximum personalization. 
-                                    From strategy to design, development, implementation and maintenance, satisfaction is assured.
+                                    As a web development company in India, we build scalable websites and web applications that are easy to manage and maintain.
+                                    Our services include business websites, custom web applications, UI UX design, and e-commerce solutions using WordPress and modern frameworks.
+
                                 </p>
                             </div>
                         </div>
@@ -34,8 +35,7 @@ export default function OurServices() {
                                 </div>
                                 <h6 className="title">APP DEVELOPMENT</h6>
                                 <p className="content">
-                                    The tailor-made application development for exceptional digital experience for your employees and customers. 
-                                    We blend technology, psychology, purpose and passion to generate exceptional solutions.
+                                    Our team provides end-to-end mobile app development services for Android and iOS. Using Flutter and React Native, we build reliable applications supported by ongoing app maintenance and technical support.
                                 </p>
                             </div>
                         </div>
@@ -48,8 +48,8 @@ export default function OurServices() {
                                 </div>
                                 <h6 className="title">GAME DEVELOPMENT</h6>
                                 <p className="content">
-                                    We are a seasoned game development firm specialising in all types of games development solutions such as 
-                                    poker, ludo, unity, roulette, keno, etc.
+                                    We create performance-focused mobile games designed for engagement and stability. Our game development services include 2D and 3D games, branded gaming experiences, and gamification solutions built using Unity and Unreal Engine.
+
                                 </p>
                             </div>
                         </div>
@@ -62,8 +62,8 @@ export default function OurServices() {
                                 </div>
                                 <h6 className="title">DIGITAL MARKETING</h6>
                                 <p className="content">
-                                    Get built-to-scale marketing strategies and implement them to get measurable outcomes. 
-                                    We focus on business goals and client expectations for maximum exposure, conversion, sales and profits.
+                                    Our digital marketing services focus on performance marketing, lead generation, and marketing automation. We plan and manage campaigns that improve visibility, attract qualified leads, and support measurable business growth.
+
                                 </p>
                             </div>
                         </div>
@@ -76,8 +76,8 @@ export default function OurServices() {
                                 </div>
                                 <h6 className="title">E-COMMERCE</h6>
                                 <p className="content">
-                                    Finest CMS software and platform development services for attainment of E-commerce vision 
-                                    and remarkable operational efficiency. We assure gaining a competitive advantage and great user experience.
+                                    We deliver e-commerce website development services for startups and growing businesses. Our solutions include secure payment integration, inventory management, order processing, and conversion-focused user journeys.
+
                                 </p>
                             </div>
                         </div>
@@ -90,8 +90,8 @@ export default function OurServices() {
                                 </div>
                                 <h6 className="title">SEO MARKETING</h6>
                                 <p className="content">
-                                    Need best SEO services, need higher search engine rankings with Google, <br/> Yahoo and MSN? 
-                                    So, what are you waiting for? <br/> <br/>PM IT Solution is always there for you.
+                                    Our SEO services include technical SEO, on-page SEO, off-page SEO, local SEO, e-commerce SEO, and SEO audit services. These efforts are focused on improving search visibility and driving consistent organic traffic.
+
                                 </p>
                             </div>
                         </div>
@@ -104,13 +104,23 @@ export default function OurServices() {
                                 </div>
                                 <h6 className="title">GOOGLE ADS (PPC)</h6>
                                 <p className="content">
-                                    If you are a business person, this is necessary for you to know about Google AdWords. 
-                                    Google AdWords is one of the major online marketing platforms that helps industries reach clients 
-                                    across the globe and grow their business.
+                                    We provide Google Ads management services, including PPC campaign setup, bid management, search ads, and remarketing. Our approach focuses on lead quality, cost control, and continuous optimisation.
                                 </p>
                             </div>
                         </div>
 
+                        {/* Social Media Marketing: */}
+                        <div className="col-lg-3 col-md-6">
+                            <div className="tf-create wow fadeInUp" data-wow-delay="1.4s">
+                                <div className="icon">
+                                    <img src="/assets/images/svg/google.svg" alt="Google Ads" />
+                                </div>
+                                <h6 className="title">Social Media Marketing:</h6>
+                                <p className="content">
+                                    Our social media marketing services include content planning, social media management, and paid advertising across Instagram, Facebook, and LinkedIn. Campaigns are designed to build awareness, engagement, and inbound leads.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

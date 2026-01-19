@@ -20,13 +20,15 @@ export default function Home() {
                 <Slider1 />
                 <Aboutcompany />
                 <OurServices />
-                <BannerCreate1 />
+                <BannerCreate1 />    
                 <Servess />
                 <Choose />
                 <Explore />
                 <TechStack />
                 <Testimonials/>
+                {/* <Questions /> */}
                 <Contact />
+
 
             </Layout>
         </>

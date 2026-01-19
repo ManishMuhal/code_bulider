@@ -13,23 +13,33 @@ export default function Explore() {
     const mainImages = [
         {
             src: "/assets/images/banner/image 11.png",
-            title: "Digital Marketing",
-            about: "PMIT Solution is serving a vast portfolio of clients in different sectors by providing digital services"
+            title: "Anonymous Talk (Dating Website):",
+            about: "Started as an idea to build a privacy-focused dating app. Faster development time using Flutter prompted us to recommend building a robust website application instead. We delivered a scalable, high-performance solution with private instant messaging and powerful user authentication."
         },
         {
             src: "/assets/images/banner/image 16.png",
-            title: "Digital Marketing",
-            about: "PMIT Solution is serving a vast portfolio of clients in different sectors by providing digital services"
+            title: "Govardhan Cable and Virus Cable (Company Websites): ",
+            about: "These corporate websites were built by our web development company to display their services and act as a lead-generation tool through effective web design. "
         },
         {
             src: "/assets/images/banner/image 11.png",
-            title: "Digital Marketing",
-            about: "PMIT Solution is serving a vast portfolio of clients in different sectors by providing digital services"
+            title: "Job Posting Website:",
+            about: "This recruiter wanted something custom to allow them to post jobs and manage applicants. Our IT services company delivered just that: a professional mobile and web application to manage their hiring process."
         },
         {
             src: "/assets/images/banner/image 11.png",
-            title: "Digital Marketing",
-            about: "PMIT Solution is serving a vast portfolio of clients in different sectors by providing digital services"
+            title: "HRMS Software: ",
+            about: "Our software development company built this for a client who needed an internal HR management system to manage employees' data, payroll, attendance, and performance through a centralised dashboard. This software streamlined confidentiality and allowed for easy access to employee data and reports."
+        },
+        {
+            src: "/assets/images/banner/image 11.png",
+            title: "Gym Management Software: ",
+            about: "This web-based fitness management solution helps fitness professionals manage clients, billing, appointments, and gym memberships without breaking a sweat. "
+        },
+        {
+            src: "/assets/images/banner/image 11.png",
+            title: "Hospital Management Software: ",
+            about: "A responsive Hospital Management Software that allows doctors to update patient records, manage billing, appointments, and track daily operations on the go."
         }
     ]
 
@@ -68,9 +78,9 @@ export default function Explore() {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="tf-heading style-4 mb63 wow fadeInUp">
-                            <h3 className="heading">Explore Our Recently Projects </h3>
+                            <h3 className="heading">Our Projects </h3>
                             <p style={{ borderLeft: "2px solid #FF9800", paddingLeft: "10px" }}>
-                                PMIT Solution is serving a vast portfolio of clients in different sectors by providing digital services, compliance assistance and targeted support.
+                                Code Builder Technology is serving a vast portfolio of clients in different sectors by providing digital services, compliance assistance and targeted support.
                             </p>
                         </div>
                     </div>
@@ -89,7 +99,7 @@ export default function Explore() {
                                                 <h3 style={{ fontSize: "20px", fontWeight: "600", marginBottom: "8px" }}>
                                                     {img.title}
                                                 </h3>
-                                                <p style={{ fontSize: "15px"}}>
+                                                <p style={{ fontSize: "15px" }}>
                                                     {img.about}.tf-artis .content-thumb .content
                                                 </p>
                                             </div>

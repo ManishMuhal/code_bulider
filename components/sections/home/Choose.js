@@ -7,27 +7,27 @@ export default function Choose() {
         {
             icon: "/assets/images/icon/Dedicated.png",
             title: "Dedicated Teams",
-            desc: "We have a technical expert team, which has solutions for all your problems.",
+            desc: "You can expect quality service from Code Builder Technology’s dedicated team. Our developers, designers, marketers, and project managers work closely with you to make sure your goals are understood.",
             bg: "#D20001"
         },
         {
             icon: "/assets/images/icon/High.png",
             title: "High Quality Assurance",
-            desc: "Our qualified testing team double check every work to prevent mistakes or defects.",
+            desc: "Every project we take on goes through our rigorous testing and quality assurance process. From code stability tests to security audits and load testing, we guarantee the projects we deliver will perform well and scale past your needs.",
             bg: "#9B30A0"
 
         },
         {
             icon: "/assets/images/icon/Support.png",
             title: "24*7 Support",
-            desc: "We have a technical expert team, which has solutions for all your problems.",
+            desc: "Your success is our priority. We provide continuous support and maintenance for apps, SEO, websites, and marketing campaigns so you can rest easy. ",
             bg: "#44B931"
 
         },
         {
             icon: "/assets/images/icon/setting.png",
             title: "Timely Delivery",
-            desc: "We have ability to deliver solutions to our customers in a timely manner.",
+            desc: "Our agile workflows allow us to meet your deadlines with top-quality web development, app development and digital marketing services. ",
             bg: "#EE7510"
 
         }
@@ -40,31 +40,30 @@ export default function Choose() {
                     <div className="row vertical-middle">
                         <div className="col-md-6">
                             <div className="content-banner ">
-                                <h2 className="wow fadeInUp">Why Choose
-                                    PM IT Solution
+                                <h2 className="wow fadeInUp">Why Choose Code Builder Technology?
+
                                     <span className="animationtext clip">
                                         <TypeAnimation
                                             sequence={[
-                                                ' SEO Services',
+                                                ' Dedicated Team',
                                                 1000,
-                                                ' Web Development',
+                                                ' High-Quality Assurance',
                                                 1000,
-                                                ' Mobile Apps',
+                                                ' 24*7 Assistance',
                                                 1000,
-                                                ' Digital Marketing',
+                                                ' Timely Delivery',
                                                 1000,
-                                                ' UI/UX Design',
-                                                2000,
+                                             
                                             ]}
                                             wrapper="span"
                                             speed={50}
-                                            style={{ display: 'inline-block', marginLeft: "15px" }}
+                                            style={{ display: 'inline-block', marginLeft: "18px" }}
                                             repeat={Infinity}
                                             className="cd-words-wrapper ms-3">
                                         </TypeAnimation>
                                     </span></h2>
 
-                                <p className="wow fadeInUp">An overall information technology services providing company that prioritizes your vision, objectives and expectations. We aim to offer a highly customized tech solution and be partners at every stage from conceptualization to power-packed execution. </p>
+                                <p className="wow fadeInUp">Expert software developers and digital marketers who focus on business-first thinking and helping you reach your goals. We want to be your long-term software development partner in India. </p>
 
                                 {/* --- Features list (displayed under the paragraph) --- */}
                                 <div className="feature-list wow fadeInUp" style={{ marginTop: 30 }}>
@@ -93,7 +92,7 @@ export default function Choose() {
                                         ))}
                                     </div>
                                 </div>
-                      
+
                             </div>
                         </div>
 
