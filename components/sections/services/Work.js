@@ -55,7 +55,7 @@ export default function Work({ data = defaultData }) {
         effect: "coverflow",
         coverflowEffect: {
             rotate: -15,
-            stretch: 0,
+            stretch: 0, 
             depth: 300,
             modifier: 1,
             slideShadows: false,

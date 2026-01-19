@@ -10,6 +10,7 @@ import Explore from "@/components/sections/home/Explore"
 import Contact from "@/components/sections/home/Contact"
 import TechStack from "@/components/sections/home/TechStack"
 import Testimonials from "@/components/sections/services/Testimonials"
+import Faq from "@/components/sections/home/Faq"
 
 export default function Home() {
 
@@ -26,7 +27,7 @@ export default function Home() {
                 <Explore />
                 <TechStack />
                 <Testimonials/>
-                {/* <Questions /> */}
+                <Faq/>
                 <Contact />
 
 

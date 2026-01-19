@@ -39,17 +39,7 @@ const defaultData = {
     },
   ]
 }
-const faqData = {
-  heading: "Hire PHP Developer Questions?", subHeading: "PMIT Solution makes hiring dedicated developers easy.",
-  questions: [
-    { question: "Q. 1 : What is your hiring model?", answer: "We offer hourly ($15-25/hr), monthly (full-time dedicated), and project-based engagement models." },
-    { question: "Q. 2 : How quickly can I start?", answer: "We can match you with a developer and start within 48 hours for most requirements." },
-    { question: "Q. 3 : What skills do your PHP developers have?", answer: "Laravel, CodeIgniter, Symfony, WordPress, API development, MySQL, and modern PHP practices." },
-    { question: "Q. 4 : How do we communicate?", answer: "Use Slack, Microsoft Teams, email, or any communication tool you prefer. Daily standups if needed." },
-    { question: "Q. 5 : Can I scale up or down?", answer: "Yes, you can adjust the team size each month based on your project needs." },
-    { question: "Q. 6 : What if the developer isn't a fit?", answer: "We provide replacement within one week if the developer doesn't meet your expectations." }
-  ]
-}
+
 
 export default function Testimonials({ data = defaultData }) {
   // Merge passed data with defaults to ensure all properties exist
@@ -195,10 +185,7 @@ export default function Testimonials({ data = defaultData }) {
             </div>
           </div>
         </div>
-        <div style={{marginTop:'12%'}} className="tf-container">
-
-          <Faq data={faqData} />
-        </div>
+        
         {/* bottom glow accent */}
         <div
           className="mx-auto mt-5 rounded-pill"
